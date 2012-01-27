@@ -1,0 +1,1 @@
+This is a CSS styling for [Marked](http://markedapp.com/) based on color schemes from [Solarized](http://ethanschoonover.com/solarized) by @ethanschoonover

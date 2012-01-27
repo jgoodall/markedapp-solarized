@@ -1,0 +1,331 @@
+/* 
+This document has been created for Marked.app <http://markedapp.com>, Copyright 2011 Brett Terpstra
+Please leave this notice in place, along with any additional credits below.
+---------------------------------------------------------------
+
+Colors based on Solarized <http://ethanschoonover.com/solarized>
+*/
+
+
+body
+{
+  -webkit-font-smoothing:antialiased;
+  font:normal .8764em/1.5em Droid Sans Mono,Anonymous Pro,Anonymous,Inconsolata,Andale Mono,monospace;
+  background: #fdf6e3; /* base3 */
+  color:#657b83; /* base00 */
+  margin:0;
+}
+
+html>body
+{
+  font-size:15px
+}
+
+li
+{
+  font-size:110%
+}
+
+li li
+{
+  font-size:100%
+}
+
+li p
+{
+  font-size:100%;
+  margin:.5em 0
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #b58900; /* yellow */
+  font-weight: 600;
+  line-height:1.5em
+}
+
+a
+{
+  padding: 2px 4px;
+  font-weight: 600;
+  color:#93a1a1; /* base1 */
+  -webkit-transition:color .2s ease-in-out;
+}
+
+a:hover
+{
+  text-decoration: none;
+  background: #eee8d5; /* base2 */
+}
+
+h1
+{
+  font-size:2.2857em;
+  line-height:.6563em;
+  margin:.6563em 0
+}
+
+h2
+{
+  font-size:1.7143em;
+  line-height:.875em;
+  margin:.875em 0
+}
+
+h3
+{
+  font-size:1.5em;
+  line-height:1em;
+  margin:1em 0
+}
+
+h4
+{
+  font-size:1.2857em;
+  line-height:1.1667em;
+  margin:1.1667em 0
+}
+
+h5
+{
+  font-size:1.15em;
+  line-height:1.3em;
+  margin:1.3em 0
+}
+
+h6
+{
+  font-size:1em;
+  line-height:1.5em;
+  margin:1.5em 0
+}
+
+body,p,td,div
+{
+  word-wrap:break-word
+}
+
+
+.footnote
+{
+  color:#93a1a1; /* base1 */
+  font-size:.8em;
+  vertical-align:super
+}
+
+#wrapper img
+{
+  max-width:100%
+}
+
+dd
+{
+  margin-bottom:1em
+}
+
+li > p:first-child
+{
+  margin:0
+}
+
+ul ul,ul ol
+{
+  margin-bottom:.4em
+}
+
+caption,col,colgroup,table,tbody,td,tfoot,th,thead,tr
+{
+  border-spacing:0
+}
+
+table
+{
+  border:1px solid rgba(0,0,0,0.25);
+  border-collapse:collapse;
+  display:table;
+  empty-cells:hide;
+  margin:-1px 0 23px;
+  padding:0;
+  table-layout:fixed
+}
+
+caption
+{
+  display:table-caption;
+  font-weight:700
+}
+
+col
+{
+  display:table-column
+}
+
+colgroup
+{
+  display:table-column-group
+}
+
+tbody
+{
+  display:table-row-group
+}
+
+tfoot
+{
+  display:table-footer-group
+}
+
+thead
+{
+  display:table-header-group
+}
+
+td,th
+{
+  display:table-cell
+}
+
+tr
+{
+  display:table-row
+}
+
+table th,table td
+{
+  font-size:1.1em;
+  line-height:23px;
+  padding:0 1em
+}
+
+table thead
+{
+  border:1px solid rgba(0,0,0,0.15);
+  border-bottom:1px solid rgba(0,0,0,0.2)
+}
+
+table tbody
+{
+
+}
+
+table tfoot
+{
+  border:1px solid rgba(0,0,0,0.15);
+  border-top:1px solid rgba(0,0,0,0.2)
+}
+
+figure
+{
+  display:inline-block;
+  margin-bottom:1.2em;
+  position:relative
+}
+
+figcaption
+{
+  -webkit-transition:all .2s ease-in-out;
+  bottom:0;
+  left:0;
+  position:absolute;
+  text-align:center;
+  width:100%
+}
+
+figure:hover
+{
+  cursor:pointer
+}
+
+.poetry pre
+{
+  display:block;
+  font-family:Georgia, Garamond, serif!important;
+  font-size:110%!important;
+  font-style:italic;
+  line-height:1.6em;
+  margin-left:1em
+}
+
+.poetry pre code
+{
+  font-family:Georgia, Garamond, serif!important
+}
+
+sup,sub,a.footnote
+{
+  font-size:1.4ex;
+  height:0;
+  line-height:1;
+  position:relative;
+  vertical-align:super
+}
+
+sub {
+  vertical-align: sub;
+  top: -1px;
+}
+
+p,h5
+{
+  font-size:1.1429em;
+  line-height:1.3125em;
+  margin:1.3125em 0
+}
+
+dt,th
+{
+  font-weight:700
+}
+
+
+@media print {
+  body
+  {
+      overflow:auto
+  }
+  img, pre, blockquote, table, figure {
+      page-break-inside: avoid
+  }
+  .footnotes { page-break-before: always }
+
+  #wrapper
+  {
+      background:#fff;
+      color:#303030;
+      font-size:85%;
+      padding:10px;
+      position:relative;
+      text-indent:0
+  }
+}
+
+@media screen {
+  .inverted {
+    color: #839496; /* base0 */
+    background:#002b36; /* base03 */
+  }
+
+  .inverted a
+  {
+    color:#586e75; /* base01 */
+  }
+  
+  .inverted a:hover
+  {
+    background:#073642; /* base02 */
+  }
+    
+  .inverted .footnote
+  {
+    color:#586e75; /* base01 */
+  }
+
+  .inverted #wrapper
+  {
+      padding:20px
+  }
+  
+  .inverted #wrapper
+  {
+      background:#002b36; /* base03 */
+  }
+}
