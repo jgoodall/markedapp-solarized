@@ -13,7 +13,7 @@ body
   font:normal .8764em/1.5em Droid Sans Mono,Anonymous Pro,Anonymous,Inconsolata,Andale Mono,monospace;
   background: #fdf6e3; /* base3 */
   color:#657b83; /* base00 */
-  margin:0;
+  padding: 10px 20px;
 }
 
 html>body
@@ -235,19 +235,15 @@ figure:hover
   cursor:pointer
 }
 
-.poetry pre
+pre
 {
   display:block;
-  font-family:Georgia, Garamond, serif!important;
   font-size:110%!important;
-  font-style:italic;
   line-height:1.6em;
-  margin-left:1em
-}
-
-.poetry pre code
-{
-  font-family:Georgia, Garamond, serif!important
+  margin: 25px;
+  padding: 10px;
+  background: #eee8d5; /* base2 */
+  border: 1px solid #839496;  /* base0 */
 }
 
 sup,sub,a.footnote
@@ -319,9 +315,10 @@ dt,th
     color:#586e75; /* base01 */
   }
 
-  .inverted #wrapper
+  .inverted pre
   {
-      padding:20px
+    background: #073642; /* base02 */
+    border: 1px solid #657b83;  /* base00 */
   }
   
   .inverted #wrapper
