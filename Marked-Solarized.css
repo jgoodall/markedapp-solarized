@@ -1,9 +1,13 @@
-/* 
+/*
 This document has been created for Marked.app <http://markedapp.com>, Copyright 2011 Brett Terpstra
 Please leave this notice in place, along with any additional credits below.
 ---------------------------------------------------------------
 
 Colors based on Solarized <http://ethanschoonover.com/solarized>
+
+John Goodall
+https://github.com/jgoodall/markedapp-solarized
+
 */
 
 
@@ -18,7 +22,7 @@ body
 
 html>body
 {
-  font-size:15px
+  font-size:14px
 }
 
 li
@@ -304,12 +308,12 @@ dt,th
   {
     color:#586e75; /* base01 */
   }
-  
+
   .inverted a:hover
   {
     background:#073642; /* base02 */
   }
-    
+
   .inverted .footnote
   {
     color:#586e75; /* base01 */
@@ -320,7 +324,7 @@ dt,th
     background: #073642; /* base02 */
     border: 1px solid #657b83;  /* base00 */
   }
-  
+
   .inverted #wrapper
   {
       background:#002b36; /* base03 */
