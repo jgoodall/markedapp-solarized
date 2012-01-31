@@ -1,1 +1,5 @@
 This is a CSS styling for [Marked](http://markedapp.com/) based on color schemes from [Solarized](http://ethanschoonover.com/solarized) by @ethanschoonover
+
+See the [Marked Extras page](http://markedapp.com/extras/) for more on how to install custom styles.
+
+Report issues or improvements on [the project issues page](https://github.com/jgoodall/markedapp-solarized/issues)
