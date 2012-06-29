@@ -258,8 +258,7 @@ pre
   display:block;
   font-size:110%!important;
   line-height:1.6em;
-  margin: 25px;
-  padding: 10px;
+  padding: 20px;
   background: #eee8d5; /* base2 */
   border: 1px solid #839496;  /* base0 */
 }
@@ -342,6 +341,11 @@ dt,th
   {
     background: #073642; /* base02 */
     border: 1px solid #657b83;  /* base00 */
+  }
+
+  .inverted code
+  {
+    background: #073642; /* base02 */
   }
 
   .inverted #wrapper
