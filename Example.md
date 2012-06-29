@@ -13,7 +13,7 @@ Aliquam ut augue turpis, eget mattis nibh. Suspendisse urna mauris, pharetra vit
 
 ### Markdown Example - Code
 
-Ut erat nisl, dignissim et iaculis ac, adipiscing non ipsum. Vivamus ornare hendrerit sapien ut ornare.
+Ut erat nisl, dignissim et iaculis ac, adipiscing non ipsum. `Inline Code Example` Vivamus ornare hendrerit sapien ut ornare.
 
 `<?php echo("Hello World!"); ?>`
 

@@ -14,11 +14,8 @@ https://github.com/jgoodall/markedapp-solarized
 body
 {
   -webkit-font-smoothing:antialiased;
-  /* monospace fonts */
-  font:normal .8764em/1.5em Inconsolata,Anonymous Pro,Anonymous,Droid Sans Mono,Andale Mono,Monaco,monospace;
   /* sans-serif fonts */
-/*  font:normal .8764em/1.5em Helvetica Neue,Helvetica,Gill Sans,sans-serif;
-*/
+  font:normal .8764em/1.5em Helvetica Neue,Helvetica,Gill Sans,sans-serif;
   background: #fdf6e3; /* base3 */
   color:#657b83; /* base00 */
   padding: 10px 20px;
@@ -256,15 +253,16 @@ blockquote
 pre
 {
   display:block;
-  font-size:110%!important;
   line-height:1.6em;
   padding: 20px;
-  background: #eee8d5; /* base2 */
   border: 1px solid #839496;  /* base0 */
 }
 
-code
+pre, code
 {
+  /* monospace fonts */
+  font-face: Inconsolata,Anonymous Pro,Anonymous,Droid Sans Mono,Andale Mono,Monaco,monospace!important;
+  font-size: 1.1em!important;
   background: #eee8d5; /* base2 */
 }
 
