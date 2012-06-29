@@ -1,5 +1,12 @@
 This is a CSS styling for [Marked](http://markedapp.com/) based on color schemes from [Solarized](http://ethanschoonover.com/solarized) by @ethanschoonover
 
+If you have `Automatic Syntax Highlighting` turned on in your Marked preferences, toggling the contrast may look strange. 
+
 See the [Marked Extras page](http://markedapp.com/extras/) for more on how to install custom styles.
 
-Report issues or improvements on [the project issues page](https://github.com/jgoodall/markedapp-solarized/issues)
+Report issues or improvements on [the project issues page](https://github.com/jgoodall/markedapp-solarized/issues). Better yet, make changes and submit a pull request.
+
+
+## Contributors:
+
+* [Daiderd Jordan](https://github.com/L0CKnL0aD7)
